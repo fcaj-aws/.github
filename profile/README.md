@@ -2,9 +2,9 @@
 
   <img src="./banner.png" alt="AWS Projects - Cloud, DevOps and Automation" width="100%">
 
-  # ☁️ AWS Projects
+# ☁️ AWS Projects
 
-  ### The central hub for AWS projects, experiments, and reusable cloud solutions
+### The central hub for AWS projects, experiments, and reusable cloud solutions
 
   <p>
     <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900" alt="Amazon AWS">
@@ -49,9 +49,9 @@ The organization focuses on:
 The catalog below is intentionally kept up to date as projects are added to the
 organization.
 
-| Project | Description | Primary services / tools | Status |
-|---|---|---|---|
-| _Coming soon_ | The project catalog is being established | AWS | 🟡 Planned |
+| Project       | Description                              | Primary services / tools | Status     |
+| ------------- | ---------------------------------------- | ------------------------ | ---------- |
+| _Coming soon_ | The project catalog is being established | AWS                      | 🟡 Planned |
 
 ### 🗺️ Areas of interest
 
@@ -72,6 +72,61 @@ organization.
     <td align="center">🤖<br><b>Automation</b><br><sub>Repeatable operations and workflows</sub></td>
   </tr>
 </table>
+
+## 🏛️ Architecture Overview
+
+The organization is structured around reusable AWS capabilities and project
+types. Each implementation should remain independently deployable while
+following shared principles for security, observability, automation, and
+documentation.
+
+```mermaid
+mindmap
+  root((AWS Projects))
+    Cloud Architecture
+      Serverless
+      Containers
+      Networking
+      Storage and Data
+    DevOps and Delivery
+      CI/CD
+      Infrastructure as Code
+      Release Automation
+    Security and Operations
+      IAM and Governance
+      Monitoring and Logging
+      Cost Management
+    Learning and Experiments
+      Proofs of Concept
+      Workshops
+      Reusable Patterns
+```
+
+### 🔗 Shared project flow
+
+```text
+Idea / Experiment
+        │
+        ▼
+Architecture and Cost Review
+        │
+        ▼
+Implementation with Infrastructure as Code
+        │
+        ▼
+Validation, Security Checks, and Tests
+        │
+        ▼
+Deployment and Observability
+        │
+        ▼
+Documentation, Cleanup, and Iteration
+```
+
+This overview describes the organization’s direction rather than a single
+runtime architecture. Each project README should provide the detailed
+architecture, AWS account boundaries, deployment model, and data flows for that
+project.
 
 ## 🛠️ Technology Landscape
 
